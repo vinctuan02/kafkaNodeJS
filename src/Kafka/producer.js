@@ -16,7 +16,7 @@ export async function sendMessage(message) {
 
     // Gửi tin nhắn tới topic 'van_tuan'
     await producer.send({
-      topic: 'van_tuan',
+      topic: 'trung',
       messages: [
         { value: message }
       ]
